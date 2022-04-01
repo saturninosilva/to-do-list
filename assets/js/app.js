@@ -41,3 +41,17 @@ btnAddTodo.addEventListener("click", (evento) => {
         inputTodo.value = "";
     }
 });
+const btnAddTodo = getItem("#btn-add-todo");
+btnAddTodo.addEventListener("click", (evento) => {
+    const inputTodo = getItem("#input-todo");
+    const inputValue = inputTodo.value;
+
+    console.log(inputValue);
+    if (inputValue == "") {
+        console.log("String vazia");
+    } else {
+        addTodo(inputValue);
+
+        inputTodo.value = "";
+    }
+});

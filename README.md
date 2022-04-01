@@ -12,3 +12,4 @@ Uma To Do List para exercicio do curso de desenvolvimento Front End do SENAI RJ
 Algoritmo para adicionar uma tarefa na lista
 1. [x] Ao clicar no botao pega o valor do input e armazenar o valor em uma variavel;
 2. [x] criar um item de lista e adicionar na lista de tarefas
+3. [] Adicionar tarefa a lista utilizando enter
